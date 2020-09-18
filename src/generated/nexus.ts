@@ -49,6 +49,7 @@ export interface NexusGenRootTypes {
   Position: { // root type
     company: string; // String!
     id: string; // ID!
+    location: string; // String!
     title: string; // String!
   }
   Query: {};
@@ -79,6 +80,7 @@ export interface NexusGenFieldTypes {
     company: string; // String!
     endDate: NexusGenScalars['Date'] | null; // Date
     id: string; // ID!
+    location: string; // String!
     months: number; // Int!
     startDate: NexusGenScalars['Date']; // Date!
     title: string; // String!
